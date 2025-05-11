@@ -1,0 +1,15 @@
+.container {
+    width: 1240px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .title {
+        width: 392px;
+    }
+
+    p {
+        width: 710px;
+    }
+}

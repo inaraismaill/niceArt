@@ -1,0 +1,35 @@
+.title {
+    color: #3E6F00;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+.description {
+    color: #414D44;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+
+}
+
+.headlings {
+    color: #3E6F00;
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 0%;
+}
+
+.text {
+    color: #414D44;
+    font-weight: 800;
+    font-size: 44px;
+    letter-spacing: 0%;
+
+}

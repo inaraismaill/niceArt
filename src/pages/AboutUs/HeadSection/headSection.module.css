@@ -1,0 +1,25 @@
+.headSection {
+    .texts {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+
+        h2 {
+            width: 530px;
+            margin: 20px 0 40px;
+        }
+
+        .right {
+            width: 604px;
+        }
+
+    }
+
+    img {
+        margin: 0 auto;
+        object-fit: cover;
+        width: 1028px;
+        height: 578px;
+    }
+}

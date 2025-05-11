@@ -1,0 +1,71 @@
+.pageTitle {
+    padding-top: 20px;
+    display: flex;
+    width: 1240px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pageTitle h1 {
+    font-family: West Trial;
+    width: 560px;
+}
+
+.description {
+    width: 604px;
+}
+.description .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.container {
+    width: 1028px;
+    margin: 0 auto;
+
+    >img {
+        width: 100%;
+        margin: 50px 0 30px;
+    }
+}
+
+.about {
+    padding: 70px 0 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .text {
+        width: 497px;
+        color: #414D44;
+
+        p {
+            margin: 20px 0 40px;
+        }
+
+        .learn {
+            h4 {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 22px;
+            }
+
+            div {
+                width: 105px;
+                height: 4px;
+                background-color: #3E6F00;
+
+            }
+        }
+
+    }
+
+
+    img {
+        width: 498px;
+        height: 543px;
+        object-fit: cover;
+    }
+}
