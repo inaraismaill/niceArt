@@ -1,15 +1,21 @@
-.container {
-    width: 1240px;
-    margin: 100px auto;
+.productsSection {
+    margin-top: 100px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     .title {
-        width: 392px;
+        max-width: 392px;
     }
 
     p {
-        width: 710px;
+        max-width: 710px;
+    }
+}
+@media (max-width: 768px) {
+    .title{margin: 10px 0;}
+    .productsSection{
+        display: block;
+        padding: 0 10px 60px ;
     }
 }

@@ -1,7 +1,10 @@
-.strategySection { padding: 100px 0 200px;
+.strategySection {
+    padding: 100px 0;
+
     .top {
-        width: 374px;
-        h3{
+        max-width: 374px;
+
+        h3 {
             margin-bottom: 10px;
         }
     }
@@ -14,7 +17,7 @@
     }
 
     .bottom div {
-        width: 365px;
+        max-width: 365px;
     }
 
     .bottom h3 {
@@ -24,5 +27,31 @@
         line-height: 100%;
         letter-spacing: 0%;
 
+    }
+}
+
+@media (max-width: 968px) {
+    .strategySection {
+        padding: 60px 0;
+        padding: 20px;
+
+        .top {
+            margin-bottom: 30px;
+        }
+        .bottom div{
+            margin-bottom: 20px;
+            img{
+                width: 51px; object-fit: contain;
+                height: 51px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .strategySection {
+        .bottom {
+            display: block;
+        }
     }
 }

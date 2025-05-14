@@ -3,7 +3,7 @@ import styles from "./productsSection.module.css"
 
 const ProductsSection: FC = () => {
   return (
-    <div className={styles.container}>
+    <div className={ `${styles.productsSection} container`}>
       <div className={styles.title}>
         <h3 className="headlings">Products</h3>
         <h2 className="text">Daşınmaz əmlak krediti</h2>

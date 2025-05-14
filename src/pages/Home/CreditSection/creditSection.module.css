@@ -1,0 +1,43 @@
+.creditSection {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+        width: 414px;
+
+        h2 {
+            margin: 10px 0 30px;
+        }
+    }
+
+    .loanInputs {
+        display: flex;
+
+    }
+
+    .loanInputs .inputGroup {
+        width: 226px;
+        height: 51px;
+        border-width: 1px;
+        border-radius: 4px;
+        padding: 16px;
+
+    }
+
+    .right {
+        width: 681px;
+    }
+
+    form {
+        font-weight: 500;
+        font-size: 16px;
+
+    }
+
+    button {
+        background-color: #3E6F00;
+        color: #fff;
+    }
+}

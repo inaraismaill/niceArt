@@ -13,8 +13,9 @@ const AboutSection: FC = () => {
             non purus, gravida commodo.
           </h2>
           <div className={styles.buttons}>
-            <Button text="Products" isWhite={true} down={true} />
-            <Button text="About NICART" isWhite={false} down={false} />
+            <Button to="/products" text="Products" isWhite={true} down={false} />
+            
+            <Button to="/about" text="About NICART" isWhite={false} down={true} />
           </div>
         </div>
       </div>

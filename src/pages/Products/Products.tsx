@@ -39,7 +39,7 @@ const Products: React.FC = () => {
                 Faiz dərəcəsi (%) <br /> 12-18
               </p>
             </div>
-            <Button isWhite={true} text={"Apply loan"} down={false} />
+            <Button to="" isWhite={true} text={"Apply loan"} down={false} />
           </div>
           <img src="./assets/image/Group.png" alt="" />
         </div>
@@ -63,7 +63,7 @@ const Products: React.FC = () => {
                 Faiz dərəcəsi (%) <br /> 12-18
               </p>
             </div>
-            <Button isWhite={true} text={"Apply loan"} down={false} />
+            <Button to="" isWhite={true} text={"Apply loan"} down={false} />
           </div>
           <img src="./assets/image/Vector.png" alt="" />
         </div>
@@ -87,7 +87,7 @@ const Products: React.FC = () => {
                 Faiz dərəcəsi (%) <br /> 12-18
               </p>
             </div>
-            <Button isWhite={true} text={"Apply loan"} down={false} />
+            <Button to="" isWhite={true} text={"Apply loan"} down={false} />
           </div>
           <img src="./assets/image/Vector.png" alt="" />
         </div>
